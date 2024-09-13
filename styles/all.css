@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"Times New Roman";
+   
+}
+
+:root{
+
+    --background-color1: #302727;
+    --background-color2: #ba2d2d;
+    --background-color3: #f2511b;
+    --background-color4: #f2861b;
+    --background-color5: #c7c730;
+    --fontePrimaria:Roboto;
+    --fonteSecundaria:Suse;
+
+}
+
+
+
+h1,h2,h3,h4{
+    font-family: var(--fontePrimaria);
+}
+
+p{
+    font-family: var(--fonteSecundaria);
+}
+
+header,footer{
+    width: 100%;
+    background-color: var(--background-color2);
+    color: white;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around; /*se só existir um item o space-arround centraliza ele, se tiver mais itens ele distribui*/
+}
+
+nav {
+
+   
+    display: flex;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+ }
+  nav ul a{
+    
+    color: white;
+    text-decoration: none;
+    background-color: #c7c730;
+    
+  }
+
+  nav ul a:hover{
+    text-decoration: underline;
+  }
